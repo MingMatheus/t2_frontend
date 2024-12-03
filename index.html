@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Informações climáticas</title>
+</head>
+
+<body>
+  <div style="display: grid; justify-content: center">
+    <h1>Consulta Climática</h1>
+
+    <label for="cidade">Cidade</label>
+    <input type="text" name="cidade" id="cidade">
+    
+    <button style="margin: 20px" onclick="exibirInformacoesClimaticas()">Obter informações climáticas</button>
+  </div>
+  
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <script src="frontend.js"></script>
+</body>
+</html>
