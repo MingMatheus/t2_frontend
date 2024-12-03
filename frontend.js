@@ -86,8 +86,8 @@ async function exibirInformacoesClimaticas()
     return -1
   }
 
-  sensacaoTermica = informacoesClimaticas["main"]["feels_like"]
-  descricao = informacoesClimaticas["weather"][0]["description"]
+  const sensacaoTermica = informacoesClimaticas["main"]["feels_like"]
+  const descricao = informacoesClimaticas["weather"][0]["description"]
 
   console.log(`Sensação térmica: ${sensacaoTermica}°C`)
   console.log(`Descrição: ${descricao}`)  
